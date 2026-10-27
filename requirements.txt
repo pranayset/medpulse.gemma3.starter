@@ -1,0 +1,11 @@
+# Lightweight starter dependencies. Install a compatible PyTorch build separately if needed.
+pytest>=8.0
+pandas>=2.1
+# Optional model workflow:
+# torch
+# transformers>=4.51,<5
+# accelerate>=1.2
+# peft>=0.14
+# bitsandbytes>=0.45; platform_system == "Linux"
+# datasets>=3.2
+# gradio>=5

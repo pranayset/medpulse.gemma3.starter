@@ -1,0 +1,1 @@
+Only reviewed, synthetic, non-identifiable examples belong in this public folder. Keep private or real datasets outside the repository or under the ignored `data/private/` path locally. Never commit patient records, even if names are removed, without proper authorization and privacy review.

@@ -1,0 +1,83 @@
+# Secrets, credentials, certificates and private keys
+.env
+.env.*
+!.env.example
+*.pem
+*.pek
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+credentials.json
+secrets.json
+token
+token.*
+*token*.txt
+*secret*
+*credential*
+
+# Hugging Face and cloud credentials/cache
+.huggingface/
+.cache/huggingface/
+**/huggingface_token*
+**/hf_token*
+**/access_token*
+
+# Private / real data (commit only reviewed synthetic samples)
+data/private/
+data/raw/
+data/processed/
+data/real/
+private_datasets/
+datasets/private/
+*.parquet
+*.sqlite
+*.db
+
+# Model weights, checkpoints, and trained adapters
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.gguf
+*.h5
+*.model
+pytorch_model*
+model.safetensors*
+adapter_model*
+adapter_config.json
+checkpoints/
+outputs/
+adapters/
+weights/
+models/
+runs/
+
+# Notebooks: scrub outputs before publishing; exclude checkpoint files
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python / local environments
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,13 @@
+project:
+  name: medpulse-gemma3
+  mode: synthetic-demo
+data:
+  path: data/sample/synthetic_discharge_examples.jsonl
+  require_synthetic_only: true
+generation:
+  max_new_tokens: 256
+  temperature: 0.2
+safety:
+  use_real_patient_data: false
+  clinical_decision_support: false
+  require_human_review: true
